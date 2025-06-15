@@ -1,0 +1,11 @@
+{
+  "name": "Rohit Sharma",
+  "status": "Hot",
+  "metadata": {
+    "location": "banglore",
+    "propertyType": "plot",
+    "purpose": "personal",
+    "budget": "45 lpa",
+    "timeline": "7 days"
+  }
+}

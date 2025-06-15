@@ -1,0 +1,43 @@
+{
+  "industry": "Real Estate",
+  "greeting": "Hi {name}! I'm your GrowEasy real estate assistant.",
+  "questions": [
+    {
+      "key": "location",
+      "text": "Which city/location are you interested in?"
+    },
+    {
+      "key": "propertyType",
+      "text": "Are you looking for a flat, villa, or plot?"
+    },
+    {
+      "key": "purpose",
+      "text": "Is it for personal use or investment?"
+    },
+    {
+      "key": "budget",
+      "text": "What’s your budget?"
+    },
+    {
+      "key": "timeline",
+      "text": "When do you plan to move in?"
+    }
+  ],
+  "classificationRules": {
+    "hot": {
+      "requiredFields": ["location", "propertyType", "purpose", "budget", "timeline"]
+    },
+    "cold": {
+      "conditions": [
+        "someAnswersMissing",
+        "lowIntentWords"
+      ]
+    },
+    "invalid": {
+      "conditions": [
+        "gibberishInput",
+        "fakeData"
+      ]
+    }
+  }
+}

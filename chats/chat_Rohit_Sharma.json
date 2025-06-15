@@ -1,0 +1,35 @@
+[
+  {
+    "agent": "Hi Rohit Sharma! I'm your GrowEasy real estate assistant."
+  },
+  {
+    "agent": "Which city/location are you interested in?"
+  },
+  {
+    "user": "banglore"
+  },
+  {
+    "agent": "Are you looking for a flat, villa, or plot?"
+  },
+  {
+    "user": "yes"
+  },
+  {
+    "agent": "Is this for personal use or investment?"
+  },
+  {
+    "user": "personal"
+  },
+  {
+    "agent": "What’s your budget range?"
+  },
+  {
+    "user": "400000"
+  },
+  {
+    "agent": "When do you plan to move?"
+  },
+  {
+    "user": "tomorrow"
+  }
+]
